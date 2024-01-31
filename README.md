@@ -1,5 +1,5 @@
 # Data Warehouse and Business Intelligence
 
-## Chutimon Cherdpongtagit
+## Chutimon C.
 
-### Chutimon loves Greek Yogurt
+### Chutimon loves Greek Yogurt very much.
