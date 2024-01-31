@@ -1,2 +1,5 @@
-# dw-and-bi
-DS525 : Data Warehouse and Business Intelligence 
+# Data Warehouse and Business Intelligence
+
+## Heading 2
+
+### Heading 3
