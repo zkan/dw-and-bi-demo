@@ -1,0 +1,6 @@
+Name : Chutimon Cherdpongtagit
+ID : 66199160146
+
+Data Modeling I project
+- Renew create_tables.py ( 6 tables : actor, event, issue, issue comments, reactions, repository)
+- Create insert_info.py (Test the results by using only the 'actor' table - there is some error I can't figure out)
