@@ -16,8 +16,8 @@ with open('github_events_01.json', 'r') as file:
 # Iterate over the data and insert into the actor table
 for entry in data:
     actor_data = (
-        entry.get('id', None),
-        entry.get('login', None),
+        entry.get('id'),
+        entry.get('login'),
         entry.get('display_login', None),
         entry.get('gravatar_id',None),
         entry.get('url', None),
@@ -25,7 +25,7 @@ for entry in data:
     )
 
     # SQL INSERT statement for the actor table
-    sql_insert_actor = "INSERT INTO actor (id, login, display_login, gravatar_id, url, avatar_url) VALUES (%s, %s, %s, %s, %s, %s) ON CONFLICT (id) DO NOTHING"
+    sql_insert_actor = "INSERT INTO actor (id, login, display_login, gravatar_id, url, avatar_url) VALUES (?, ?, ?, ?,?,?) ON CONFLICT (id) DO NOTHING"
 
     # Execute the SQL INSERT statement
     cur.execute(sql_insert_actor, actor_data)
