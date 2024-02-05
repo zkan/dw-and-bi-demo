@@ -4,3 +4,5 @@ ID : 66199160146
 Data Modeling I project
 - Renew create_tables.py as new_create_tables.py (actor, repo, issue, payload, org, event)
 - Renew etl.py as new_etl.py (insert the data for table actor, repo and event)
+
+** Chutimon will update the results more.
